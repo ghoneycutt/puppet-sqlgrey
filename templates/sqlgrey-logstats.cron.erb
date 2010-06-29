@@ -1,0 +1,6 @@
+# This file is being maintained by Puppet.
+# DO NOT EDIT
+
+# email weekly logs
+/bin/cat /var/log/maillog /var/log/maillog.1 | /usr/bin/sqlgrey-logstats.pl --print-delayed -w | /bin/mail -s "weekly sqlgrey stats for <%= hostname %>.<%= pop %>" <%= sqlgreyAdminMail %>
+exit 0

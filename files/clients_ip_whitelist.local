@@ -1,0 +1,13 @@
+# This file is being maintained by Puppet.
+# DO NOT EDIT
+
+######################
+# whitelist our IP's #
+######################
+
+# home
+127.0.0.1
+
+# our public IP's
+
+# our private IP's

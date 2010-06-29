@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "dependencies": [
+    {
+      "version_requirement": ">= 1.0.0",
+      "name": "ghoneycutt/mysql"
+    },
+    {
+      "version_requirement": ">= 1.0.0",
+      "name": "ghoneycutt/postfix"
+    }
+  ],
+  "name": "ghoneycutt-sqlgrey",
+  "checksums": {
+    "spec/spec_helper.rb": "ca19ec4f451ebc7fdb035b52eae6e909",
+    "files/clients_fqdn_whitelist.local": "94675663d7b0e4f5a63564cb9418005c",
+    "templates/sqlgrey.conf.erb": "146854a1a1090055f21e5f3f5348b432",
+    "files/setup_db.sql": "b1608508729c68a0177925764eb36184",
+    "README": "e34a6d37cf5b7c4aea0aca2ce136559f",
+    "tests/init.pp": "e00dd6b72dd897ca746ac62497134417",
+    "templates/sqlgrey-logstats.cron.erb": "2b5e4f29fe1421825eb198388b3bde1a",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "metadata.json": "d34d0b70aba36510fbc2df4e667479ef",
+    "files/clients_ip_whitelist.local": "57e387b6d65d0ab472300f9e776c4bc8",
+    "Modulefile": "5df11a6e074e39c7012dba1e5ec77d79",
+    "manifests/init.pp": "55ff0631ce04838cb3421cec5b6e4674"
+  },
+  "types": [
+
+  ]
+}

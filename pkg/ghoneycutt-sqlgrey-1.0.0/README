@@ -1,0 +1,5 @@
+sqlgrey
+
+Released 20100629 - Garrett Honeycutt - GPLv2
+
+Greylisting with SQLgrey (http://sqlgrey.sourceforge.net/) and Postfix
